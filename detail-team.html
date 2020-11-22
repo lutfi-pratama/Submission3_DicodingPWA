@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Detail Team</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0F3460" />
+    <meta name="description" content="Football Information" />
+
+    <link rel="shortcut icon" href="aset/img/icon.png">
+
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/fontawesome/fontawesome.min.css">
+    <link rel="stylesheet" href="css/fontawesome/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigasi -->
+    <nav class="a-bg-main" role="navigation">
+        <div class="nav-wrapper container">
+            <div class="center-align">
+                <a href="#" class="brand-logo nav-site-title" id="logo-container">Detail Team</a>
+            </div>
+            <a href="javascrit:void(0)" onclick="javascript:window.history.back(-1);return false;" data-target="nav-mobile">
+                <i class="material-icons">arrow_back</i>
+            </a>
+            <ul class="sidenav" id="nav-mobile"></ul>
+        </div>
+    </nav>
+    <!-- Akhir Navigasi -->
+
+    <!-- Detail Team -->
+    <div class="container">
+        <div class="card">
+            <div class="card-content">
+                <div class="center-align">
+                    <img id="a-logoklub" alt="logo team" align="center" width="100" height="100" vspace="25">
+                    <h5 class="a-font-bold" id="a-namaklub"></h5>
+                </div>
+            </div>
+            <div class="card-tabs">
+                <div class="card-content">
+                    <div class="center-align" id="a-preloader">
+                        <div class="preloader-wrapper big active">
+                            <div class="spinner-layer spinner-blue">
+                                <div class="circle-clipper left">
+                                    <div class="circle"></div>
+                                </div>
+                                <div class="gap-patch">
+                                    <div class="circle"></div>
+                                </div>
+                                <div class="circle-clipper right">
+                                    <div class="circle"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="profil_club">
+                        <div class="entry">
+                            <div class="row">
+                                <div class="col s5">
+                                    <p>Name</p>
+                                </div>
+                                <div class="col s1">
+                                    :
+                                </div>
+                                <div class="col s6">
+                                    <div id="a-name"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s5">
+                                    <p>Short Name</p>
+                                </div>
+                                <div class="col s1">
+                                    :
+                                </div>
+                                <div class="col s6">
+                                    <div id="a-shortName"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s5">
+                                    <p>Tla</p>
+                                </div>
+                                <div class="col s1">
+                                    :
+                                </div>
+                                <div class="col s6">
+                                    <div id="a-tla"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s5">
+                                    <p>Address</p>
+                                </div>
+                                <div class="col s1">
+                                    :
+                                </div>
+                                <div class="col s6">
+                                    <div id="a-address"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s5">
+                                    <p>Phone</p>
+                                </div>
+                                <div class="col s1">
+                                    :
+                                </div>
+                                <div class="col s6">
+                                    <div id="a-phone"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s5">
+                                    <p>Website</p>
+                                </div>
+                                <div class="col s1">
+                                    :
+                                </div>
+                                <div class="col s6">
+                                    <div id="a-website"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s5">
+                                    <p>Email</p>
+                                </div>
+                                <div class="col s1">
+                                    :
+                                </div>
+                                <div class="col s6">
+                                    <div id="a-email"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s5">
+                                    <p>Founded</p>
+                                </div>
+                                <div class="col s1">
+                                    :
+                                </div>
+                                <div class="col s6">
+                                    <div id="a-founded"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s5">
+                                    <p>Venue</p>
+                                </div>
+                                <div class="col s1">
+                                    :
+                                </div>
+                                <div class="col s6">
+                                    <div id="a-venue"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s5">
+                                    <p>Club Colors</p>
+                                </div>
+                                <div class="col s1">
+                                    :
+                                </div>
+                                <div class="col s6">
+                                    <div id="a-clubColors"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir Detail Team -->
+    <!-- Simpan Favorit -->
+        <div class="nav-wrapper container center-align">
+            <div id="addToFavorit">
+                <a class="btn" id="save">
+                    <i id="iconFav" class="large material-icons"></i>
+                </a>
+            </div>
+        </div>
+    
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/date.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/idb.js"></script>
+    <script src="js/detail-team.js"></script>
+    <script src="js/dbfootball.js"></script>
+    <script src="js/dbfunction.js"></script>
+
+    <script>
+         if ("serviceWorker" in navigator) {
+            window.addEventListener("load", function () {
+                navigator.serviceWorker
+                    .register("/service-worker.js")
+                    .then(function () {
+                        console.log("Pendaftaran ServiceWorker berhasil");
+                    })
+                    .catch(function () {
+                        console.log("Pendaftaran ServiceWorker gagal");
+                    });
+            });
+        } else {
+            console.log("ServiceWorker belum didukung browser ini.");
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            var urlParams = new URLSearchParams(window.location.search);
+            var id = Number(urlParams.get("id"));
+            var isFavorit = false
+            checkData("team_favorit", id).then((msg) => {
+                console.log("statusData: Resolve = " + msg);
+                
+                document.getElementById("iconFav").innerHTML = "delete_forever"
+                getSavedDataById("team")
+                isFavorit = true
+            }).catch((msg) => {
+                console.log("statusData: Reject = " + msg)
+                document.getElementById("iconFav").innerHTML = "save"
+                getDetailTeamById()
+                isFavorit = false
+            })
+
+            var iconFav = document.getElementById("iconFav");
+
+            iconFav.onclick = function () {
+                console.log("Tombol Favorit di klik.");
+                if (isFavorit) {
+                    deleteDatafav("team_favorit", id);
+                    isFavorit = false
+                } else {
+                    items = getDetailTeamById();
+                    items.then(function (team) {
+                        createDataFav("team", team);
+                    });
+                    isFavorit = true
+                }
+
+            };
+        });
+    </script>
+   
+</body>
+</html>
