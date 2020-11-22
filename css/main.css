@@ -1,0 +1,237 @@
+@import url(https://fonts.googleapis.com/css?family=Muli:400,400i|Roboto+Condensed:400,600,700);
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #222;
+    font-family: Muli, sans-serif
+}
+
+/* Global */
+.a-font-bold{
+    font-weight: bold;
+}
+
+/* Navigasi */
+.nav-site-title{
+    font-weight: 600;
+}
+
+.a-bg-main{
+    background-color: #16213e;
+    font-weight: 600;
+}
+.a-bg-main li :hover{
+    background-color: #e94560;
+}
+
+.sidenav {
+    background-color: #16213e;
+}
+.sidenav li a {
+    color: white;
+}
+.sidenav li:hover {
+    background-color: #0f3460;
+}
+
+
+/* Home Page */
+.a-home-img{
+    opacity: inherit !important;
+    max-width: 100%;
+}
+.parallax-container{
+    height: 400px !important;
+    width: 100%;
+    border-bottom: 20px solid #0f3460;
+}
+.a-caption{
+    position: relative;
+    top: 30%;
+    color: white;
+}
+
+.parallax-container .container h6 {
+    background-color: hsla(213, 73%, 22%, 0.502);
+    border-radius: 50px;
+    padding: 20px;    
+}
+
+.a-latest-result {
+    margin-top: 50px;
+}
+
+.a-latest-match .a-score li, .a-latest-result .a-score li {
+    display: inline-block;
+    font-size: 23px;
+    font-weight: 700;
+    margin: 0 6px;
+}
+ul.a-score {
+    background-color: #0f3460;
+    border-radius: 50px;
+    width: 40%;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+.a-score li {
+    color: white;
+}
+
+.a-latest-match .a-club-title li, .a-latest-result .a-club-title li {
+    display: inline-block;
+    font-weight: 700;
+}
+
+.a-latest-match .a-score li img, .a-latest-result .a-score li img {
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+
+.a-latest-match .a-date, .a-latest-match .a-stadium, .a-latest-result .a-date, .a-latest-result .a-stadium {
+    padding: 0;
+    margin: 0;
+}
+
+div.upcoming {
+    background-color: #0f3460;
+    padding: 20px;
+    color: white;
+    box-shadow: 5px 10px 18px #888888;
+    border-radius: 20px;
+}
+div.upcoming .container h5 {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.a-line{
+    height: 5px;
+    width: 80px;
+    margin: 30px auto 0;
+    border-top: 1px solid #40424a;
+    border-bottom: 1px solid #40424a;
+}
+.a-latest-match, .a-latest-result, .a-result .head {
+    text-align: center;
+}
+
+
+/* Klasemen Page */
+.a-img-club-klasemen{
+    float: left;
+    width:40px;
+    height:40px;
+    margin-right: 20px;
+}
+
+#klasemen-content .card {
+    background-color:  #0f3460;
+    color: white;
+}
+
+tbody {
+    background-color: #3b5d87;
+}
+
+td a.button-detail {
+    background-color: #e94560;
+    width: 30%;
+    font-style: none;
+    color: rgb(255, 255, 255);
+    padding: 3px 15px;
+    border-radius: 50px;
+    font-size: 10px;
+}
+td a.button-detail:hover {
+    background-color: black;
+}
+td.list-club {
+    padding: 5px;
+}
+
+
+
+/* Detail Team */
+a.btn {
+    background-color: #e94560;
+    width: 50%;
+    margin: -15px 0 50px 0;
+    border-radius: 10px;
+}
+a.btn:hover {
+    background-color: #3b5d87;
+}
+
+
+/* Jadwal Pertandingan */
+.team-jadwal {
+    color: #e94560;
+    font-weight: bold;
+}
+
+.save-jadwal {
+    margin-top: 30px;
+}
+
+.day-jadwal {
+    background-color: #3b5d87;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+
+/* Favorit */
+.con-fav {
+    margin-top: 40px;
+}
+#iconFav {
+    padding: 0 55px 0 55px;
+}
+.fav-team {
+    background-color: #0f3460;
+}
+.fav-team:hover {
+    background-color:rgb(81, 81, 142)
+}
+.white-text {
+    padding: 11px;
+}
+
+/* Footer */
+footer {
+    display: block;
+    background-color: #e94560;
+    padding: 20px 0 0 0;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+footer .icon-social {
+    padding: 0;
+    margin: 20px 0 15px;
+}
+
+footer .icon-social li {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin: 0 3px;
+    border-radius: 100%;
+}
+
+.ft-bottom{
+    background-color: #0f3460;
+    padding: 5px;
+    font-size: 13px;
+}
+
